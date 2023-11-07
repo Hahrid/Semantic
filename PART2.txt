@@ -1,0 +1,5 @@
+select ?nameCity where 
+{  
+?nameCity a dbo:Place.  
+?nameCity geo:lat "49.589443"^^xsd:float .  
+?nameCity geo:long "34.551388"^^xsd:float .  }
